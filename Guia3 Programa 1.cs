@@ -49,7 +49,7 @@ class Program
 
         } while (opcion != 5);
     }
-
+    //Registrar
     static void Registrar(string[,] productos)
     {
         for (int i = 0; i < 10; i++)
@@ -72,7 +72,7 @@ class Program
 
         Console.WriteLine("No hay espacio disponible.");
     }
-
+    //Mostrar
     static void Mostrar(string[,] productos)
     {
         Console.WriteLine("\nLISTA DE PRODUCTOS");
@@ -97,7 +97,7 @@ class Program
             Console.WriteLine("No hay productos registrados.");
         }
     }
-
+    //Actualizar
     static void Actualizar(string[,] productos)
     {
         Console.Write("Ingrese el codigo del producto: ");
@@ -120,7 +120,7 @@ class Program
 
         Console.WriteLine("Producto no encontrado.");
     }
-
+    //Eliminar
     static void Eliminar(string[,] productos)
     {
         Console.Write("Ingrese el codigo del producto: ");
